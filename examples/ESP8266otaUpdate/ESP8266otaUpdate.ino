@@ -1,12 +1,12 @@
 #include <ESP8266WiFi.h>
-#include"otaUpdateESP8266.h"
+#include<otaUpdateESP8266.h>
 
 
-String currentVersion = "0.8";
-String Token = "OH0kX8DBQIPpYuNCBBExINQ5p8Q";
+String currentVersion = "0.9";
+String Token = "DEVICE TOKEN";
 
-const char* ssid = "Zed";
-const char* password = "Wireless4U!";
+const char* ssid = "Your SSID";
+const char* password = "Your Password";
 
 otaUpdate devUpdt(true);
 
