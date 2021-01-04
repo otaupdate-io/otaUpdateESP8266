@@ -2,7 +2,7 @@
 #include<otaUpdateESP8266.h>
 
 
-String currentVersion = "0.9";
+float currentVersion = "0.9";
 String Token = "DEVICE TOKEN";
 
 const char* ssid = "Your SSID";
